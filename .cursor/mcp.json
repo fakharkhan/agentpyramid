@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "php",
+            "args": [
+                "artisan",
+                "boost:mcp"
+            ]
+        },
+        "atlassian-mcp-server": {
+            "name": "Atlassian MCP Server",
+            "type": "sse",
+            "url": "https://mcp.atlassian.com/v1/sse"
+        },
+        "neuron-mcp-server": {
+            "name": "Neuron AI MCP Server",
+            "type": "sse",
+            "url": "https://docs.neuron-ai.dev/~gitbook/mcp"
+        }
+    }
+}
