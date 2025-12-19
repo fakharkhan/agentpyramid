@@ -40,4 +40,9 @@ return [
         'model' => env('ANTHROPIC_MODEL'),
     ],
 
+    'firecrawl' => [
+        'key' => env('FIRECRAWL_API_KEY'),
+        'base_url' => env('FIRECRAWL_BASE_URL', 'https://api.firecrawl.dev/v2'),
+    ],
+
 ];
